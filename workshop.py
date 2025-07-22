@@ -11,10 +11,11 @@ elif 301 <= km <= 500:
 elif km > 500:
     price = 45
 else:
+    price = 0
     print("ไม่ส่งเว้ย")
 
-total = price+(7/100)
+vat = price*0.07
 print("Before Vat :",price,"baht")
 
 #เสริมนอกโจทย์
-print("+Vat7% :",total,"baht")
+print("+Vat7% :",price+vat,"baht")
