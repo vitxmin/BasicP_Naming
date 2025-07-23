@@ -1,5 +1,5 @@
 monster = 100
-knife = 20
+knife = 15
 sword = 35
 gun = 50
 result = 0
@@ -21,8 +21,8 @@ while True:
                 monster -= sword
             elif choosewp == 3:
                 monster -= gun
-                if monster < 0:
-                    monster == 20
+            if monster < 0:
+                monster = 20
             print("เลือดมอนเตอร์เหลือ :",monster)
             
             
