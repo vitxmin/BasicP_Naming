@@ -18,4 +18,4 @@ vat = price*0.07
 print("Before Vat :",price,"baht")
 
 #เสริมนอกโจทย์
-print("+Vat7% :",price+vat,"baht")
+print("Total +Vat7% :",price+vat,"baht")
